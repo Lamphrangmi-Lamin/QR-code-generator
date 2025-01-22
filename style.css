@@ -1,0 +1,44 @@
+* {
+    font-family: "Poppins", serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    font-weight: 500;
+}
+
+.user-input {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.qr-code {
+    background-color: blue;
+    height: 325px;
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+.footer {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+button {
+    font-size: 1.1rem;
+    all: unset;
+    background-color: #00d0ff;
+    padding: .6rem;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 2px 2px #000;
+}
+
+button:active {
+    box-shadow: 1px 1px #000;
+}
