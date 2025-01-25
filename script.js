@@ -12,8 +12,8 @@ const generateQRCode = () => {
     console.log("Generating QR code...")
     qrCode = new QRCode(qrCodeContainer, {
         text: text,
-        width: 325,
-        height: 325,
+        width: 290,
+        height: 290,
         colorDark: "#000000",   
         colorLight: "#ffffff",
         correctLevel: QRCode.CorrectLevel.H
